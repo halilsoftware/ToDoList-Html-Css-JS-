@@ -1,0 +1,41 @@
+* {
+	margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+}
+.cf {
+    *zoom: 1;
+}
+body {
+	margin-top: 30px;
+	background-color: #FFE181;
+	color: #696969;
+	font-family: 'Roboto Slab', sans-serif;
+	font-size: 14px;
+}
+h1 {
+	font-size: 48px;
+	color: #927963;
+	position: relative;
+	display: inline-block;
+	margin: 0;
+	margin-bottom: .5rem;
+	line-height: 1em;
+}
+.container {
+    text-align: center;
+    
+      width: 50%;
+      margin: 10px auto;
+
+}
+@media (max-width: 500px) {
+	.container {
+		width: 80%;
+	}
+}
+input {
+	width: 100%;
+	box-shadow: inset 1px 1px 3px 0px rgba(134, 134, 134, 0.21);
+	border: 1px solid #C5C5C5;
+}
